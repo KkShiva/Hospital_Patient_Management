@@ -1,3 +1,8 @@
+
+![Screenshot 2025-07-06 231329](https://github.com/user-attachments/assets/4c9f83c9-561a-4131-bae5-4d92ce1db534)
+![Screenshot 2025-07-06 231243](https://github.com/user-attachments/assets/941dce9c-04bc-4419-93f2-72b6fd16be24)
+![Screenshot 2025-07-06 231313](https://github.com/user-attachments/assets/3b52c307-1366-4535-b22e-b0a7089b9797)
+
 # 🏥 Hospital-HMS (Hospital Management System)
 
 A simple, functional Hospital Management System built with **PHP** and **MySQL**, featuring a lightweight and responsive UI. This system allows hospitals to manage patients, doctors, departments, appointments, and patient details including admissions, room charges, and services.
@@ -88,3 +93,5 @@ Import hospital.sql into that DB
 Update php/db_config.php with your hosting DB credentials
 
 Set permissions if needed for file access
+
+
