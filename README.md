@@ -31,3 +31,60 @@ A simple, functional Hospital Management System built with **PHP** and **MySQL**
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/hospital-hms.git
+```
+Or download the ZIP and extract to a folder.
+
+2. Import Database
+Open phpMyAdmin
+
+Create a new database named:
+
+```bash
+hospital
+```
+
+
+Import the SQL dump:
+
+```bash
+hospital-hms/database/hospital.sql
+```
+
+3. Configure Database Connection
+Edit php/db_config.php and set your DB credentials:
+
+```bash
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "hospital";
+```
+
+4. Run Locally with XAMPP/WAMP
+Place the project folder hospital-hms in:
+
+```bash
+C:\xampp\htdocs\  (for XAMPP)
+```
+
+Start Apache and MySQL from XAMPP Control Panel
+
+Open browser:
+
+```bash
+http://localhost/hospital-hms/
+```
+
+
+🌐 Hosting on Web Server
+To host it online:
+
+Upload all files to your hosting server (e.g., cPanel, Hostinger, etc.)
+
+Create a MySQL database on your hosting provider
+
+Import hospital.sql into that DB
+
+Update php/db_config.php with your hosting DB credentials
+
+Set permissions if needed for file access
